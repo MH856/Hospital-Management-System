@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ICT365_Assignment2.Appointments">
+    <Position X="1.75" Y="1.75" Width="1.5" />
+    <Members>
+      <Field Name="ApAddBtn" Hidden="true" />
+      <Field Name="ApDate" Hidden="true" />
+      <Field Name="ApDeleteBtn" Hidden="true" />
+      <Field Name="ApEditBtn" Hidden="true" />
+      <Field Name="AppointmentGV" Hidden="true" />
+      <Field Name="ApTime" Hidden="true" />
+      <Field Name="conn" Hidden="true" />
+      <Field Name="Key" Hidden="true" />
+      <Field Name="PatientDDL" Hidden="true" />
+      <Field Name="TreatmentDDL" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAACBAAEACEgAAQABAAACAAAQAQAAAgAAQQQABIAgCA=</HashCode>
+      <FileName>Appointments.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ICT365_Assignment2.Patient">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <Members>
+      <Field Name="AddBtn" Hidden="true" />
+      <Field Name="conn" Hidden="true" />
+      <Field Name="DeleteBtnn" Hidden="true" />
+      <Field Name="EditBtnn" Hidden="true" />
+      <Field Name="Key" Hidden="true" />
+      <Field Name="PatientAddress" Hidden="true" />
+      <Field Name="PatientAllergies" Hidden="true" />
+      <Field Name="PatientDOB" Hidden="true" />
+      <Field Name="PatientGender" Hidden="true" />
+      <Field Name="PatientGV" Hidden="true" />
+      <Field Name="PatientName" Hidden="true" />
+      <Field Name="PatientPhone" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAQAAKEAAIAQQAQAAACAAEAAyAAAAAlAAQAAKAAgA=</HashCode>
+      <FileName>Patient.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ICT365_Assignment2.Prescriptions">
+    <Position X="1.75" Y="2.75" Width="1.5" />
+    <Members>
+      <Field Name="conn" Hidden="true" />
+      <Field Name="Key" Hidden="true" />
+      <Field Name="Medicines" Hidden="true" />
+      <Field Name="MedQty" Hidden="true" />
+      <Field Name="PatientDDL" Hidden="true" />
+      <Field Name="PrescAddBtn" Hidden="true" />
+      <Field Name="PrescDeleteBtn" Hidden="true" />
+      <Field Name="PrescEditBtn" Hidden="true" />
+      <Field Name="PrescriptionGV" Hidden="true" />
+      <Field Name="TreatCost" Hidden="true" />
+      <Field Name="TreatmentDDL" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>CQAEBAgAACAMAAQAhACBIAAQAAQAgAAAiAAAAEIgCCA=</HashCode>
+      <FileName>Prescriptions.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ICT365_Assignment2.Treatments">
+    <Position X="3.5" Y="2.75" Width="1.5" />
+    <Members>
+      <Field Name="AddBtn" Hidden="true" />
+      <Field Name="conn" Hidden="true" />
+      <Field Name="DeleteBtnn" Hidden="true" />
+      <Field Name="EditBtnn" Hidden="true" />
+      <Field Name="Key" Hidden="true" />
+      <Field Name="TreatCost" Hidden="true" />
+      <Field Name="TreatDesc" Hidden="true" />
+      <Field Name="TreatmentGV" Hidden="true" />
+      <Field Name="TreatName" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAACFACIAQQAAAAAKAAAAAQhgIAAgAAAAAKAAAA=</HashCode>
+      <FileName>Treatments.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
